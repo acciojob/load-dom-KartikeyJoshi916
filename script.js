@@ -1,3 +1,6 @@
 document.addEventListener("DOMContentLoaded", (event) => {
-  console.log("DOM load success");
+	let body=document.getElementById("body");
+	body.innerHTML+=`
+	<div>DOM load success</div>
+	`;
 });
